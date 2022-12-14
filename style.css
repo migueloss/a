@@ -1,0 +1,97 @@
+*,
+body {
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+header, section, footer {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a h2 {
+    margin-left: 30px;
+    margin-top: 20px;
+    letter-spacing: 0.06rem;
+}
+
+.páginas {
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 25px;
+}
+
+.páginas a {
+    padding-right: 30px;
+    transition: 0.2s ease-out;
+    letter-spacing: 0.1rem;
+}
+
+.páginas a:hover {
+    transform: scale(1.2);
+    color: rgb(176, 176, 176);
+    text-decoration: underline;
+}
+
+section {
+    height: 82vh;
+    background: linear-gradient(to bottom, white, rgb(244, 244, 244));
+}
+
+.imagem-e-texto {
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.imagem-perfil {
+    display: inline-flex;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+.imagem-perfil img {
+    border-radius: 50%;
+    width: 320px;
+    height: 350px;
+}
+
+.texto-perfil {
+    padding-left: 150px;
+    padding-top: 120px;
+}
+
+.botão-form {
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+.botão-vid {
+    margin-left: 200px;
+    cursor: pointer;
+}
+
+.botão-mat {
+    margin-left: 1080px;
+    cursor: pointer;
+}
+
+footer {
+    height: 50px;
+    background-color: rgb(244, 244, 244);
+}
+
+footer p {
+    padding-top: 15px;
+    text-align: center;
+    font-size: 10px;
+}
